@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="page-header header-filter" style="background-image: url('{{asset('img/bg7.jpg')}}'); background-size: cover; background-position: top center;">
+<div class="page-header header-filter" style="background-image: url('{{asset('img/bg17.jpg')}}'); background-size: cover; background-position:top;">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
@@ -62,9 +62,9 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row mb-0 text-center">
+                            <div class="form-group row mb-0">
                                 <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="btn btn-danger">
+                                    <button type="submit" class="btn btn-danger btn-link btn-wd btn-lg">
                                         {{ __('Register') }}
                                     </button>
                                 </div>
