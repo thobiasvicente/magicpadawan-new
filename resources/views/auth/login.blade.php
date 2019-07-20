@@ -2,10 +2,10 @@
 
 @section('content')
 
-<div class="page-header header-filter" style="background-image: url('{{asset('img/bg23.jpg')}}');background-position: bottom;">
+<div class="page-header header-filter" style="background-image: url('{{asset('img/bg25.jpg')}}');background-position: center;">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto mt-5 pt-5">
                 <div class="card card-login">
                     <form class="form" method="POST" action="{{ route('login') }}">
                         @csrf
@@ -23,7 +23,7 @@
                                 </a>
                             </div>
                         </div>
-                        <p class="description text-center">Or Be Classical</p>
+                        <p class="description text-center">Ou vá pelo clássico</p>
                         <div class="card-body">
                             <span class="bmd-form-group">
                                 <div class="input-group">
@@ -48,7 +48,7 @@
                                             <i class="material-icons">lock_outline</i>
                                         </span>
                                     </div>
-                                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" class="form-control" placeholder="Password...">
+                                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" class="form-control" placeholder="Senha...">
                                     @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -72,7 +72,7 @@
                             <div class="input-group-prepend">
                                 @if (Route::has('password.request'))
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    {{ __('Forgot Your Password?') }}
+                                    {{ __('Esqueceu sua senha?') }}
                                 </a>
                                 @endif
                             </div>

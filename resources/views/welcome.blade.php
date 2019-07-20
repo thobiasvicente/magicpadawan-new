@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Magic PadaWan</title>
     <!-- Required meta tags -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -36,7 +38,7 @@
     <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
     <script src="{{ asset('js/material-kit.js') }}" type="text/javascript"></script>
 
-
+   
 </head>
 
 <body>
@@ -243,58 +245,6 @@
             </div>
         </div>
     </footer>
-
-
-    <!-- ------------------------------------------------------------------- -->
-    <!-- <nav class="navbar navbar-color-on-scroll navbar-expand-lg" color-on-scroll="100">
-        <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand">
-                    <p>Magic PadaWan</p>
-                </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse">
-                @if (Route::has('login'))
-                <ul class="navbar-nav ml-auto">
-                    @auth
-                    <li class="nav-item">
-                        <a href="{{url('/home')}}" class="nav-link">Home</a>
-                    </li>
-                    @else
-                    <li class="nav-item">
-                        <a href="{{'login'}}" class="nav-link">Login</a>
-                    </li>
-                    @if (Route::has('register'))
-                    <li class="nav-item">
-                        <a href="{{'register'}}" class="nav-link">Registrar</a>
-                    </li>
-                    @endif
-                    @endauth
-                    <li class="nav-item">
-                        <a href="#icons" class="nav-link">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#products" class="nav-link">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#tips" class="nav-link">Dicas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contato</a>
-                    </li>
-                </ul>
-                @endif
-            </div>
-        </div>
-    </nav> -->
 </body>
 
 </html>

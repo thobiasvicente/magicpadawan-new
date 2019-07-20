@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="page-header header-filter" style="background-image: url('{{asset('img/bg17.jpg')}}'); background-size: cover; background-position:top;">
+<div class="page-header header-filter" style="background-image: url('{{asset('img/bg27.jpg')}}');background-position:top;">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-8 pt-5 mt-5">
                 <div class="card">
                     <div class="card-header card-header-danger text-center">{{ __('Register') }}</div>
 
