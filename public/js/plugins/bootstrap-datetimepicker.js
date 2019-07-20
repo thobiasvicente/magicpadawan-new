@@ -44,6 +44,9 @@
 
 */
 
+$(function () {
+    $('#datetimepicker4').datetimepicker();
+});
 ! function(e) {
   "use strict";
   if ("function" == typeof define && define.amd) define(["jquery", "moment"], e);
@@ -189,7 +192,7 @@
           href: "#",
           tabindex: "-1",
           title: a.tooltips.decrementSecond
-        }).addClass("btn btn-link").attr("data-action", "decrementSeconds").append(e("<span>").addClass(a.icons.down))))), s || (t.append(e("<td>").addClass("separator")), n.append(e("<td>").append(e("<button>").addClass("btn btn-primary").attr({
+        }).addClass("btn btn-link").attr("data-action", "decrementSeconds").append(e("<span>").addClass(a.icons.down))))), s || (t.append(e("<td>").addClass("separator")), n.append(e("<td>").append(e("<button>").addClass("btn btn-danger").attr({
           "data-action": "togglePeriod",
           tabindex: "-1",
           title: a.tooltips.togglePeriod

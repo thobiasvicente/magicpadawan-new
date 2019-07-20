@@ -170,7 +170,7 @@
                                             <img class="d-block w-100" src="{{asset('img/camps/2.jpg')}}" alt="Segundo slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h4>
-                                                    <i class="material-icons">location_on</i> Praça BNH, Arregacão para o asilo
+                                                    <i class="material-icons">location_on</i> Praça BNH, Arrecadação para o asilo
                                                 </h4>
                                             </div>
                                         </div>
@@ -178,7 +178,7 @@
                                             <img class="d-block w-100" src="{{asset('img/camps/3.jpg')}}" alt="Terceiro slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <h4>
-                                                    <i class="material-icons">location_on</i> Praça BNH, Mestes PadaWans
+                                                    <i class="material-icons">location_on</i> Praça BNH, Mestres PadaWans
                                                 </h4>
                                             </div>
                                         </div>
